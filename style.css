@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orange-color {
+  color: orange;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  height: 30px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.img-container {
+  padding: 30px;
+}
+
+.img-container img {
+  height: 700px;
+  width: auto;
+}
